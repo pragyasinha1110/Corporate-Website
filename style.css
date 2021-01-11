@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(https://images.unsplash.com/photo-1506935412676-6fa7f9de5bda?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0);
+    position: relative;
+}
+.header:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: .4;
+    z-index: -1;
+}
+.navbar:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: .4;
+    z-index: -1;
+}
+.nav-item a{
+    color: #ffffff;
+    font-size: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.header-buttons a{
+    border:1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 10px 25px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 5px;
+}
+.header-buttons a:hover{
+    text-decoration: none;
+    background:#fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.center-div p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+/*************three extra div css start**********/
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+.extra-div p{
+    opacity: .7;
+}
+/*************three extra div css start**********/
+
+
+/*************service offer div css start**********/
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom:50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.headings p{
+    opacity: .6;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+.name h1{
+    color: 2e2e2e;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.servicediv p{
+    opacity: .6;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 25px!important;
+    background: #606060;
+}
+i{
+    color: #2fccd0;
+}
+
+/*************service offer div css ends **********/
+/*************counter div css start **********/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 0;
+}
+.container i{
+    font-size: xx-large;
+}
+.container h1{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    text-align: center;
+}
+.container p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+
+
+
+/*************counter div css ends **********/
